@@ -1,23 +1,23 @@
 {
-  "name": "server-deployment-practice",
+  "name": "basic-express-server",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/metswin17/server-deployment-practice.git"
+    "url": "git+https://github.com/metswin17/basic-express-server.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "type": "commonjs",
   "bugs": {
-    "url": "https://github.com/metswin17/server-deployment-practice/issues"
+    "url": "https://github.com/metswin17/basic-express-server/issues"
   },
-  "homepage": "https://github.com/metswin17/server-deployment-practice#readme",
+  "homepage": "https://github.com/metswin17/basic-express-server#readme",
   "dependencies": {
     "dotenv": "^17.4.2",
     "express": "^5.2.1",
