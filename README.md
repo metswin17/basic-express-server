@@ -28,4 +28,6 @@ The server includes tests for:
 
 ## Deployment
 
-Deployed URL: To be added after deployment. 
+[Deployed Server](https://server-deployment-practice-llvk.onrender.com)
+
+Test endpoint: `/person?name=fred`
