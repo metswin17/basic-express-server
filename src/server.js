@@ -17,7 +17,7 @@ app.get('/person', validator, (req, res) => {
   });
 });
 
-app.use('*', notFoundHandler);
+app.use(notFoundHandler);
 
 app.use(serverErrorHandler);
 
