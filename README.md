@@ -31,3 +31,20 @@ The server includes tests for:
 [Deployed Server](https://server-deployment-practice-llvk.onrender.com)
 
 Test endpoint: `/person?name=fred`
+
+## UML / Process Flow
+
+```mermaid
+flowchart TD
+    A[User / REST Client] -->|GET /person?name=fred| B[Express Server]
+    B --> C[Logger Middleware]
+    C --> D[/person Route]
+    D --> E[Validator Middleware]
+
+    E -->|Name present| F[200 OK]
+    F --> G[JSON Response: name = fred]
+
+    E -->|Name missing| H[500 Error Handler]
+
+    B -->|Bad route or method| I[404 Not Found Handler]
+    ```
