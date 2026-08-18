@@ -38,7 +38,7 @@ Test endpoint: `/person?name=fred`
 flowchart TD
     A[User / REST Client] -->|GET /person?name=fred| B[Express Server]
     B --> C[Logger Middleware]
-    C --> D[/person Route]
+    C --> D["/person Route"]
     D --> E[Validator Middleware]
 
     E -->|Name present| F[200 OK]
